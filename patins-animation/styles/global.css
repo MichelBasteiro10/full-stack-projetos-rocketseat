@@ -1,4 +1,6 @@
-*, *::after, ::before {
+*,
+*::after,
+::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,11 +27,13 @@
     --text-xl: 4rem;
 }
 
-html, button {
+html,
+button {
     font: 500 1rem/1.5 var(--ff-base);
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Syne", sans-serif;
 }
 
